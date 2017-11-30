@@ -12,5 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+//= require bootstrap-sprockets
+//= require dashboard.js
+//= require dashboard2.js
+//= require adminlte
+//= require adminlte.min.js
+
+
