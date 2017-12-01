@@ -18,5 +18,6 @@
 //= require dashboard2.js
 //= require adminlte
 //= require adminlte.min.js
+//= require custom
 
 

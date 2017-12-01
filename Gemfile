@@ -15,6 +15,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem "font-awesome-rails"
+gem "paperclip", "~> 5.0.0"
 
 # gem 'redis', '~> 3.0'
 # gem 'bcrypt', '~> 3.1.7'
