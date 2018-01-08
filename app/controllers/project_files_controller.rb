@@ -9,6 +9,7 @@ class ProjectFilesController < ApplicationController
   end
 
   def create
+    debugger
   end
 
   def show

@@ -2,7 +2,13 @@
   <div class="panel-heading">
     <h3 class="panel-title"><%#= task.title %></h3>
   </div>
-  <div class="panel-body">
+  <div class="panel-body list-panel">
     <%#= truncate task.description, length: 50 %>
+    <ul>
+      <li draggable="true" ondragenter="dragenter(event)" ondragstart="dragstart(event)">Apples</li>
+      <li draggable="true" ondragenter="dragenter(event)" ondragstart="dragstart(event)">Oranges</li>
+      <li draggable="true" ondragenter="dragenter(event)" ondragstart="dragstart(event)">Bananas</li>
+      <li draggable="true" ondragenter="dragenter(event)" ondragstart="dragstart(event)">Strawberries</li>
+    </ul>
   </div>
 </div>

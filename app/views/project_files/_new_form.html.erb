@@ -8,11 +8,11 @@
           <h4 class="modal-title">Upload File</h4>
         </div>
         <div class="modal-body form-group">
-            <%= f.file_field :file, class: "form-control" %>
+            <%= f.file_field :file, class: "form-control", id: "form_file" %>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Close</button>
-          <%= f.submit "Save changes", class: "btn btn-info" %>
+          <%= f.submit "Save changes", class: "btn btn-info", id: "upload_file" %>
         </div>
       <% end %>
     </div>
